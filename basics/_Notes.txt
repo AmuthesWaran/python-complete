@@ -1,0 +1,22 @@
+Python Installation:
+https://www.python.org/
+
+IDE/Code Editor:
+Visual Studio Code*
+Pycharm
+
+VS Code Extenstions:
+Python from Microsoft - (Includes Jupyter, Jupyter Cell Tags, Jupyter Keymap, Jupyter Notebook Renderers, Jupyter Slide Show, Pylance, isort) 
+Pylint from Microsoft
+
+Format Document:
+File -> Setting -> search 'python formatting provider' set autopep8
+pip install pep8
+https://superuser.com/questions/1474880/how-to-use-python-autopep8-in-visual-studio-2019
+
+File -> Setting -> Enable 'Format On Save'
+
+
+
+
+
