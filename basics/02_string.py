@@ -7,7 +7,22 @@ multi-line line message'''
 
 message4 = "This is a another \n multi line message using \\n"
 
+# Length of a string
 print(len(message3))
+
+
+# Index of a String
+# 1st character of the string message
+print(message[0])
+# Last character of the string message
+print(message[-1])
+
+# Start with 0th index and end at 7th index
+print(message[0:7])
+
+print(message[0:])
+
+print(message[:3])
 
 print(message2)
 
