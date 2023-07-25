@@ -4,30 +4,44 @@ import csv
 
 text_as_string = open(
     'E:/GitHub Projects/python-complete/00_misc/emailid.txt', 'r').read()
-print(text_as_string)
 
 
 splited_string = text_as_string.split(";")
 
-print(splited_string)
 
 trim_string = []
 fname_list = []
-print(type(trim_string))
-print(type(splited_string))
 
 for text in splited_string:
     trim_string.append(text.strip())
 
-print(trim_string)
 
-fields = ['emailid', 'fname']
+fields = ['emailid', 'firstname', 'lastname']
 
 filename = 'name_list.csv'
+
+firstname = []
+lastnamedirty = []
+lastname = []
+for emailid in trim_string:
+    firstname = emailid.split('.')[0]
+    lastnamedirty = emailid.split('@')[0].strip()
+
+print(firstname)
+print(lastnamedirty)
+
+for lastnames in lastnamedirty:
+    print(lastnames)
+    lastname = lastnames.split('.')[1]
+
+
+exportdata = zip(trim_string, firstname, lastname)
+
+print(firstname)
 
 with open(filename, 'w') as csvfile:
     csvwriter = csv.writer(csvfile)
 
     csvwriter.writerow(fields)
-    for item in trim_string:
-        csvwriter.writerow([item])
+    for item in exportdata:
+        csvwriter.writerows([item])
