@@ -23,16 +23,17 @@ filename = 'name_list.csv'
 firstname = []
 lastnamedirty = []
 lastname = []
-for emailid in trim_string:
-    firstname = emailid.split('.')[0]
-    lastnamedirty = emailid.split('@')[0].strip()
+for i in range(0, len(trim_string)):
+    firstname = trim_string[i].split('.')[0]
+    lastnamedirty = trim_string[i].split('@')[0].strip()
 
 print(firstname)
 print(lastnamedirty)
 
-for lastnames in lastnamedirty:
-    print(lastnames)
-    lastname = lastnames.split('.')[1]
+
+for i in range(0, len(lastnamedirty)):
+    # print(lastnamedirty[1])
+    lastname = lastnamedirty[i].split('.')[0]
 
 
 exportdata = zip(trim_string, firstname, lastname)
