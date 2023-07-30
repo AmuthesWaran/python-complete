@@ -1,46 +1,34 @@
 import csv
-# with open('E:/GitHub Projects/python-complete/00_misc/readandsplit.py', 'r') as file:
-#     data = data = file.read().rstrip()
 
-text_as_string = open(
-    'E:/GitHub Projects/python-complete/00_misc/emailid.txt', 'r').read()
+filecontent_as_string = open(
+    './00_misc/emailid.txt', 'r').read()
 
+splited_string = filecontent_as_string.split(";")
 
-splited_string = text_as_string.split(";")
-
-
+# Initializing empty lists
 trim_string = []
-fname_list = []
+firstname = []
+lastname = []
+fields = ['emailid', 'firstname', 'lastname']
+filename = 'extracted_output.csv'
+
 
 for text in splited_string:
     trim_string.append(text.strip())
 
+# print(trim_string)
+# print(len(trim_string))
 
-fields = ['emailid', 'firstname', 'lastname']
 
-filename = 'name_list.csv'
-
-firstname = []
-lastnamedirty = []
-lastname = []
 for i in range(0, len(trim_string)):
-    firstname = trim_string[i].split('.')[0]
-    lastnamedirty = trim_string[i].split('@')[0].strip()
-
-print(firstname)
-print(lastnamedirty)
-
-
-for i in range(0, len(lastnamedirty)):
-    # print(lastnamedirty[1])
-    lastname = lastnamedirty[i].split('.')[0]
-
+    firstname.append(trim_string[i].split('.')[0])
+    lastname.append(trim_string[i].split('@')[0].strip().split('.')[1])
 
 exportdata = zip(trim_string, firstname, lastname)
 
-print(firstname)
+# print(firstname)
 
-with open(filename, 'w') as csvfile:
+with open(f'./00_misc/{filename}', 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
 
     csvwriter.writerow(fields)
