@@ -1,0 +1,14 @@
+// To create a virtual environment
+python -m venv env
+
+// To activate virtual environment
+.\env\Scripts\activate
+
+// To see installed libraries in your environment:
+pip freeze 
+
+// To install a package
+pip install <name of the package>
+
+// To deactivate virtual environment
+deactivate 
