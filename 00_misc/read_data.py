@@ -16,17 +16,11 @@ filename = 'extracted_output.csv'
 for text in splited_string:
     trim_string.append(text.strip())
 
-# print(trim_string)
-# print(len(trim_string))
-
-
 for i in range(0, len(trim_string)):
     firstname.append(trim_string[i].split('.')[0])
     lastname.append(trim_string[i].split('@')[0].strip().split('.')[1])
 
 exportdata = zip(trim_string, firstname, lastname)
-
-# print(firstname)
 
 with open(f'./00_misc/{filename}', 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
