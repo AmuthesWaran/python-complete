@@ -1,0 +1,325 @@
+File1_Record,File2_Record,FuzzyMatchScore
+Steven,Steven King,71
+Steven,Neena Kochhar,32
+Steven,Lex De Haan,35
+Steven,Alexander Hunold,27
+Steven,Bruce Ernst,12
+Steven,David Austin,22
+Steven,Valli Pataballa,10
+Steven,Diana Lorentz,21
+Steven,Nancy Greenberg,29
+Steven,Daniel Faviet,11
+Steven,John Chen,27
+Steven,Ismael Sciarra,10
+Steven,Jose Manuel Urman,26
+Steven,Luis Popp,0
+Steven,Den Raphaely,22
+Steven,Alexander Khoo,20
+Steven,Shelli Baida,22
+Steven,Sigal Tobias,11
+Neena,Steven King,38
+Neena,Neena Kochhar,56
+Neena,Lex De Haan,38
+Neena,Alexander Hunold,29
+Neena,Bruce Ernst,25
+Neena,David Austin,12
+Neena,Valli Pataballa,10
+Neena,Diana Lorentz,22
+Neena,Nancy Greenberg,40
+Neena,Daniel Faviet,22
+Neena,John Chen,29
+Neena,Ismael Sciarra,21
+Neena,Jose Manuel Urman,27
+Neena,Luis Popp,0
+Neena,Den Raphaely,35
+Neena,Alexander Khoo,21
+Neena,Shelli Baida,24
+Neena,Sigal Tobias,12
+Lex,Steven King,14
+Lex,Neena Kochhar,12
+Lex,Lex De Haan,43
+Lex,Alexander Hunold,21
+Lex,Bruce Ernst,14
+Lex,David Austin,0
+Lex,Valli Pataballa,0
+Lex,Diana Lorentz,25
+Lex,Nancy Greenberg,11
+Lex,Daniel Faviet,12
+Lex,John Chen,17
+Lex,Ismael Sciarra,12
+Lex,Jose Manuel Urman,10
+Lex,Luis Popp,17
+Lex,Den Raphaely,13
+Lex,Alexander Khoo,24
+Lex,Shelli Baida,13
+Lex,Sigal Tobias,0
+Alexander,Steven King,20
+Alexander,Neena Kochhar,27
+Alexander,Lex De Haan,40
+Alexander,Alexander Hunold,72
+Alexander,Bruce Ernst,20
+Alexander,David Austin,19
+Alexander,Valli Pataballa,17
+Alexander,Diana Lorentz,27
+Alexander,Nancy Greenberg,33
+Alexander,Daniel Faviet,27
+Alexander,John Chen,22
+Alexander,Ismael Sciarra,26
+Alexander,Jose Manuel Urman,38
+Alexander,Luis Popp,0
+Alexander,Den Raphaely,10
+Alexander,Alexander Khoo,78
+Alexander,Shelli Baida,29
+Alexander,Sigal Tobias,19
+Bruce,Steven King,12
+Bruce,Neena Kochhar,11
+Bruce,Lex De Haan,12
+Bruce,Alexander Hunold,19
+Bruce,Bruce Ernst,62
+Bruce,David Austin,12
+Bruce,Valli Pataballa,0
+Bruce,Diana Lorentz,22
+Bruce,Nancy Greenberg,20
+Bruce,Daniel Faviet,11
+Bruce,John Chen,14
+Bruce,Ismael Sciarra,11
+Bruce,Jose Manuel Urman,9
+Bruce,Luis Popp,14
+Bruce,Den Raphaely,12
+Bruce,Alexander Khoo,11
+Bruce,Shelli Baida,12
+Bruce,Sigal Tobias,0
+David,Steven King,25
+David,Neena Kochhar,11
+David,Lex De Haan,25
+David,Alexander Hunold,19
+David,Bruce Ernst,0
+David,David Austin,59
+David,Valli Pataballa,20
+David,Diana Lorentz,22
+David,Nancy Greenberg,10
+David,Daniel Faviet,44
+David,John Chen,0
+David,Ismael Sciarra,21
+David,Jose Manuel Urman,9
+David,Luis Popp,14
+David,Den Raphaely,24
+David,Alexander Khoo,21
+David,Shelli Baida,35
+David,Sigal Tobias,24
+Valli,Steven King,12
+Valli,Neena Kochhar,11
+Valli,Lex De Haan,12
+Valli,Alexander Hunold,19
+Valli,Bruce Ernst,0
+Valli,David Austin,24
+Valli,Valli Pataballa,50
+Valli,Diana Lorentz,11
+Valli,Nancy Greenberg,10
+Valli,Daniel Faviet,33
+Valli,John Chen,0
+Valli,Ismael Sciarra,32
+Valli,Jose Manuel Urman,18
+Valli,Luis Popp,14
+Valli,Den Raphaely,24
+Valli,Alexander Khoo,11
+Valli,Shelli Baida,35
+Valli,Sigal Tobias,35
+Diana,Steven King,25
+Diana,Neena Kochhar,22
+Diana,Lex De Haan,38
+Diana,Alexander Hunold,19
+Diana,Bruce Ernst,12
+Diana,David Austin,35
+Diana,Valli Pataballa,30
+Diana,Diana Lorentz,56
+Diana,Nancy Greenberg,20
+Diana,Daniel Faviet,44
+Diana,John Chen,14
+Diana,Ismael Sciarra,32
+Diana,Jose Manuel Urman,27
+Diana,Luis Popp,14
+Diana,Den Raphaely,35
+Diana,Alexander Khoo,21
+Diana,Shelli Baida,35
+Diana,Sigal Tobias,24
+Nancy,Steven King,12
+Nancy,Neena Kochhar,33
+Nancy,Lex De Haan,25
+Nancy,Alexander Hunold,19
+Nancy,Bruce Ernst,12
+Nancy,David Austin,24
+Nancy,Valli Pataballa,10
+Nancy,Diana Lorentz,22
+Nancy,Nancy Greenberg,50
+Nancy,Daniel Faviet,22
+Nancy,John Chen,14
+Nancy,Ismael Sciarra,21
+Nancy,Jose Manuel Urman,18
+Nancy,Luis Popp,0
+Nancy,Den Raphaely,24
+Nancy,Alexander Khoo,21
+Nancy,Shelli Baida,12
+Nancy,Sigal Tobias,12
+Daniel,Steven King,24
+Daniel,Neena Kochhar,11
+Daniel,Lex De Haan,35
+Daniel,Alexander Hunold,36
+Daniel,Bruce Ernst,12
+Daniel,David Austin,33
+Daniel,Valli Pataballa,29
+Daniel,Diana Lorentz,42
+Daniel,Nancy Greenberg,29
+Daniel,Daniel Faviet,63
+Daniel,John Chen,27
+Daniel,Ismael Sciarra,30
+Daniel,Jose Manuel Urman,35
+Daniel,Luis Popp,13
+Daniel,Den Raphaely,44
+Daniel,Alexander Khoo,30
+Daniel,Shelli Baida,22
+Daniel,Sigal Tobias,22
+John,Steven King,13
+John,Neena Kochhar,24
+John,Lex De Haan,13
+John,Alexander Hunold,10
+John,Bruce Ernst,13
+John,David Austin,12
+John,Valli Pataballa,0
+John,Diana Lorentz,24
+John,Nancy Greenberg,11
+John,Daniel Faviet,12
+John,John Chen,62
+John,Ismael Sciarra,0
+John,Jose Manuel Urman,29
+John,Luis Popp,15
+John,Den Raphaely,12
+John,Alexander Khoo,11
+John,Shelli Baida,12
+John,Sigal Tobias,12
+Ismael,Steven King,12
+Ismael,Neena Kochhar,11
+Ismael,Lex De Haan,12
+Ismael,Alexander Hunold,27
+Ismael,Bruce Ernst,12
+Ismael,David Austin,11
+Ismael,Valli Pataballa,19
+Ismael,Diana Lorentz,21
+Ismael,Nancy Greenberg,19
+Ismael,Daniel Faviet,32
+Ismael,John Chen,13
+Ismael,Ismael Sciarra,60
+Ismael,Jose Manuel Urman,26
+Ismael,Luis Popp,13
+Ismael,Den Raphaely,33
+Ismael,Alexander Khoo,20
+Ismael,Shelli Baida,22
+Ismael,Sigal Tobias,11
+Jose Manuel,Steven King,27
+Jose Manuel,Neena Kochhar,17
+Jose Manuel,Lex De Haan,36
+Jose Manuel,Alexander Hunold,37
+Jose Manuel,Bruce Ernst,27
+Jose Manuel,David Austin,17
+Jose Manuel,Valli Pataballa,23
+Jose Manuel,Diana Lorentz,25
+Jose Manuel,Nancy Greenberg,23
+Jose Manuel,Daniel Faviet,33
+Jose Manuel,John Chen,40
+Jose Manuel,Ismael Sciarra,32
+Jose Manuel,Jose Manuel Urman,79
+Jose Manuel,Luis Popp,10
+Jose Manuel,Den Raphaely,43
+Jose Manuel,Alexander Khoo,32
+Jose Manuel,Shelli Baida,17
+Jose Manuel,Sigal Tobias,17
+Luis,Steven King,13
+Luis,Neena Kochhar,0
+Luis,Lex De Haan,13
+Luis,Alexander Hunold,10
+Luis,Bruce Ernst,27
+Luis,David Austin,25
+Luis,Valli Pataballa,11
+Luis,Diana Lorentz,12
+Luis,Nancy Greenberg,0
+Luis,Daniel Faviet,12
+Luis,John Chen,0
+Luis,Ismael Sciarra,11
+Luis,Jose Manuel Urman,10
+Luis,Luis Popp,62
+Luis,Den Raphaely,0
+Luis,Alexander Khoo,0
+Luis,Shelli Baida,12
+Luis,Sigal Tobias,25
+Den,Steven King,29
+Den,Neena Kochhar,25
+Den,Lex De Haan,43
+Den,Alexander Hunold,21
+Den,Bruce Ernst,29
+Den,David Austin,27
+Den,Valli Pataballa,0
+Den,Diana Lorentz,38
+Den,Nancy Greenberg,22
+Den,Daniel Faviet,25
+Den,John Chen,33
+Den,Ismael Sciarra,12
+Den,Jose Manuel Urman,20
+Den,Luis Popp,0
+Den,Den Raphaely,40
+Den,Alexander Khoo,24
+Den,Shelli Baida,13
+Den,Sigal Tobias,0
+Alexander,Steven King,20
+Alexander,Neena Kochhar,27
+Alexander,Lex De Haan,40
+Alexander,Alexander Hunold,72
+Alexander,Bruce Ernst,20
+Alexander,David Austin,19
+Alexander,Valli Pataballa,17
+Alexander,Diana Lorentz,27
+Alexander,Nancy Greenberg,33
+Alexander,Daniel Faviet,27
+Alexander,John Chen,22
+Alexander,Ismael Sciarra,26
+Alexander,Jose Manuel Urman,38
+Alexander,Luis Popp,0
+Alexander,Den Raphaely,10
+Alexander,Alexander Khoo,78
+Alexander,Shelli Baida,29
+Alexander,Sigal Tobias,19
+Shelli,Steven King,35
+Shelli,Neena Kochhar,11
+Shelli,Lex De Haan,12
+Shelli,Alexander Hunold,18
+Shelli,Bruce Ernst,12
+Shelli,David Austin,11
+Shelli,Valli Pataballa,29
+Shelli,Diana Lorentz,11
+Shelli,Nancy Greenberg,10
+Shelli,Daniel Faviet,32
+Shelli,John Chen,27
+Shelli,Ismael Sciarra,30
+Shelli,Jose Manuel Urman,17
+Shelli,Luis Popp,13
+Shelli,Den Raphaely,33
+Shelli,Alexander Khoo,10
+Shelli,Shelli Baida,67
+Shelli,Sigal Tobias,33
+Sigal,Steven King,38
+Sigal,Neena Kochhar,11
+Sigal,Lex De Haan,12
+Sigal,Alexander Hunold,19
+Sigal,Bruce Ernst,0
+Sigal,David Austin,12
+Sigal,Valli Pataballa,20
+Sigal,Diana Lorentz,22
+Sigal,Nancy Greenberg,10
+Sigal,Daniel Faviet,22
+Sigal,John Chen,0
+Sigal,Ismael Sciarra,32
+Sigal,Jose Manuel Urman,18
+Sigal,Luis Popp,14
+Sigal,Den Raphaely,24
+Sigal,Alexander Khoo,11
+Sigal,Shelli Baida,35
+Sigal,Sigal Tobias,59
