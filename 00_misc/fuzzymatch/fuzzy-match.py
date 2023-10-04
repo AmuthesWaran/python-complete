@@ -1,12 +1,16 @@
 import pandas as pd
 from fuzzywuzzy import fuzz, process
-
+import numpy as np
 
 firstname = pd.read_csv('00_misc/fuzzymatch/firstname.csv')
 fullname = pd.read_csv('00_misc/fuzzymatch/fullname.csv')
 
-# print(firstname)
-# print(fullname)
+
+firstname.fillna('', inplace=True)
+fullname.fillna('', inplace=True)
+
+print(firstname)
+print(fullname)
 
 
 # Function to compute fuzzy match score
