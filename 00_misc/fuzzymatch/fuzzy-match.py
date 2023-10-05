@@ -1,6 +1,7 @@
 import pandas as pd
 from fuzzywuzzy import fuzz, process
 import numpy as np
+from datetime import datetime
 
 firstname = pd.read_csv('00_misc/fuzzymatch/firstname.csv')
 fullname = pd.read_csv('00_misc/fuzzymatch/fullname.csv')
@@ -21,7 +22,7 @@ def compute_fuzzy_match(source, target):
 # Initialize an empty DataFrame to store the matching results
 matching_results = []
 
-
+datetime.datetime
 # Iterate through records in file1_df
 for index1, row1 in firstname.iterrows():
     # Adjust this based on your file structure
