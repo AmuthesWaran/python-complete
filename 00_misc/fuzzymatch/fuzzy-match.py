@@ -1,9 +1,13 @@
 import pandas as pd
 from fuzzywuzzy import fuzz, process
 import numpy as np
+import logging
 
-firstname = pd.read_csv('00_misc/fuzzymatch/firstname.csv')
-fullname = pd.read_csv('00_misc/fuzzymatch/fullname.csv')
+logging.basicConfig(filename='./logs.txt', filemode='a', format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s', datefmt='%H:%M:%S',
+                    level=logging.DEBUG)
+
+firstname = pd.read_csv('./firstname.csv')
+fullname = pd.read_csv('./fullname.csv')
 
 
 firstname.fillna('', inplace=True)
@@ -26,7 +30,7 @@ matching_results = []
 for index1, row1 in firstname.iterrows():
     # Adjust this based on your file structure
     source_record = row1['firstname']
-
+    logging.info(row1['firstname'])
     # Iterate through records in file2_df
     for index2, row2 in fullname.iterrows():
         # Adjust this based on your file structure
