@@ -2,6 +2,7 @@ import pandas as pd
 from fuzzywuzzy import fuzz, process
 import numpy as np
 import logging
+from datetime import datetime
 
 logging.basicConfig(filename='./logs.txt', filemode='a', format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s', datefmt='%H:%M:%S',
                     level=logging.DEBUG)
@@ -25,7 +26,7 @@ def compute_fuzzy_match(source, target):
 # Initialize an empty DataFrame to store the matching results
 matching_results = []
 
-datetime.datetime
+
 # Iterate through records in file1_df
 for index1, row1 in firstname.iterrows():
     # Adjust this based on your file structure

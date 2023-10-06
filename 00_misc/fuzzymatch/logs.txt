@@ -16,3 +16,21 @@
 20:55:16,891 root INFO Alexander
 20:55:16,892 root INFO Shelli
 20:55:16,893 root INFO Sigal
+20:59:05,989 root INFO Steven
+20:59:05,990 root INFO Neena
+20:59:05,992 root INFO 
+20:59:05,992 root INFO Alexander
+20:59:05,994 root INFO Bruce
+20:59:05,995 root INFO David
+20:59:05,997 root INFO Valli
+20:59:05,998 root INFO Diana
+20:59:05,999 root INFO Nancy
+20:59:06,0 root INFO Daniel
+20:59:06,1 root INFO John
+20:59:06,3 root INFO Ismael
+20:59:06,4 root INFO Jose Manuel
+20:59:06,5 root INFO Luis
+20:59:06,7 root INFO Den
+20:59:06,8 root INFO Alexander
+20:59:06,9 root INFO Shelli
+20:59:06,10 root INFO Sigal
