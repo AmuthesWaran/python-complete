@@ -3,12 +3,12 @@ Steven,Steven King,71
 Steven,Neena Kochhar,32
 Steven,Lex De Haan,35
 Steven,Alexander Hunold,27
-Steven,Bruce Ernst,12
+Steven,Bruce Ernst,24
 Steven,David Austin,22
 Steven,Valli Pataballa,10
 Steven,Diana Lorentz,21
 Steven,Nancy Greenberg,29
-Steven,Daniel Faviet,11
+Steven,Daniel Faviet,32
 Steven,John Chen,27
 Steven,Ismael Sciarra,10
 Steven,Jose Manuel Urman,26
@@ -67,7 +67,7 @@ Alexander,John Chen,22
 Alexander,Ismael Sciarra,26
 Alexander,Jose Manuel Urman,38
 Alexander,Luis Popp,0
-Alexander,Den Raphaely,10
+Alexander,Den Raphaely,29
 Alexander,Alexander Khoo,78
 Alexander,Shelli Baida,29
 Alexander,Sigal Tobias,19
@@ -83,7 +83,7 @@ Bruce,Nancy Greenberg,20
 Bruce,Daniel Faviet,11
 Bruce,John Chen,14
 Bruce,Ismael Sciarra,11
-Bruce,Jose Manuel Urman,9
+Bruce,Jose Manuel Urman,18
 Bruce,Luis Popp,14
 Bruce,Den Raphaely,12
 Bruce,Alexander Khoo,11
@@ -142,7 +142,7 @@ Diana,Luis Popp,14
 Diana,Den Raphaely,35
 Diana,Alexander Khoo,21
 Diana,Shelli Baida,35
-Diana,Sigal Tobias,24
+Diana,Sigal Tobias,35
 Nancy,Steven King,12
 Nancy,Neena Kochhar,33
 Nancy,Lex De Haan,25
@@ -209,14 +209,14 @@ Ismael,Nancy Greenberg,19
 Ismael,Daniel Faviet,32
 Ismael,John Chen,13
 Ismael,Ismael Sciarra,60
-Ismael,Jose Manuel Urman,26
+Ismael,Jose Manuel Urman,35
 Ismael,Luis Popp,13
 Ismael,Den Raphaely,33
 Ismael,Alexander Khoo,20
 Ismael,Shelli Baida,22
-Ismael,Sigal Tobias,11
+Ismael,Sigal Tobias,22
 Jose Manuel,Steven King,27
-Jose Manuel,Neena Kochhar,17
+Jose Manuel,Neena Kochhar,25
 Jose Manuel,Lex De Haan,36
 Jose Manuel,Alexander Hunold,37
 Jose Manuel,Bruce Ernst,27
@@ -228,10 +228,10 @@ Jose Manuel,Daniel Faviet,33
 Jose Manuel,John Chen,40
 Jose Manuel,Ismael Sciarra,32
 Jose Manuel,Jose Manuel Urman,79
-Jose Manuel,Luis Popp,10
+Jose Manuel,Luis Popp,20
 Jose Manuel,Den Raphaely,43
 Jose Manuel,Alexander Khoo,32
-Jose Manuel,Shelli Baida,17
+Jose Manuel,Shelli Baida,26
 Jose Manuel,Sigal Tobias,17
 Luis,Steven King,13
 Luis,Neena Kochhar,0
@@ -283,7 +283,7 @@ Alexander,John Chen,22
 Alexander,Ismael Sciarra,26
 Alexander,Jose Manuel Urman,38
 Alexander,Luis Popp,0
-Alexander,Den Raphaely,10
+Alexander,Den Raphaely,29
 Alexander,Alexander Khoo,78
 Alexander,Shelli Baida,29
 Alexander,Sigal Tobias,19
@@ -311,7 +311,7 @@ Sigal,Lex De Haan,12
 Sigal,Alexander Hunold,19
 Sigal,Bruce Ernst,0
 Sigal,David Austin,12
-Sigal,Valli Pataballa,20
+Sigal,Valli Pataballa,30
 Sigal,Diana Lorentz,22
 Sigal,Nancy Greenberg,10
 Sigal,Daniel Faviet,22

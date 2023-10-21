@@ -1,4 +1,5 @@
 import pandas as pd
+from fuzzywuzzy import fuzz, process
 
 firstname = pd.read_csv('./firstname.csv')
 fullname = pd.read_csv('./fullname.csv')
@@ -7,17 +8,37 @@ fullname = pd.read_csv('./fullname.csv')
 firstname.fillna('', inplace=True)
 fullname.fillna('', inplace=True)
 
+# print(type(fullname))
 
-for index1, row1 in firstname.iterrows():
-    # Adjust this based on your file structure
-    # get column names that start with a specific string, s
-    # df.columns[df.columns.str.startswith(s)]
-    firstname['filter'] = list(
-        map(lambda x: x.startswith('a'), firstname['firstname']))
+# Converting the df fullname column to list
+list_fullname = fullname.fullname.values.tolist()
 
-    print(firstname)
-    # Iterate through records in file2_df
-    for index2, row2 in fullname.iterrows():
-        # Adjust this based on your file structure
-        target_record = row2['fullname']
-# inprogress
+# Converting the df firstname column to list
+list_firstname = firstname.firstname.values.tolist()
+
+# Function to compute fuzzy match score
+
+
+def compute_fuzzy_match(source, target):
+    return fuzz.ratio(source, target)
+
+
+# Initialize an empty DataFrame to store the matching results
+matching_results = []
+
+for flname in list_fullname:
+    first2letters = flname[0:2]
+    # print(list(filter(lambda x: x.startswith(first2letters), flname)))
+    for fname in list_firstname:
+        if (fname.startswith(first2letters)):
+            match_score = compute_fuzzy_match(fname, flname)
+            print(match_score)
+            if match_score >= 0:  # Adjust the threshold as needed
+                matching_results.append(
+                    {'File1_Record': fname, 'File2_Record': flname, 'FuzzyMatchScore': match_score})
+
+matching_results_df = pd.DataFrame(matching_results)
+
+# print(matching_results_df)
+
+matching_results_df.to_csv('matching_results2.csv', index=False)

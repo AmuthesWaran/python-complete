@@ -14,8 +14,8 @@ fullname = pd.read_csv('./fullname.csv')
 firstname.fillna('', inplace=True)
 fullname.fillna('', inplace=True)
 
-print(firstname)
-print(fullname)
+# print(firstname)
+# print(fullname)
 
 
 # Function to compute fuzzy match score
@@ -36,6 +36,7 @@ for index1, row1 in firstname.iterrows():
     for index2, row2 in fullname.iterrows():
         # Adjust this based on your file structure
         target_record = row2['fullname']
+        print(target_record)
 
         # Compute the fuzzy match score
         match_score = compute_fuzzy_match(source_record, target_record)
@@ -47,6 +48,6 @@ for index1, row1 in firstname.iterrows():
 
 matching_results_df = pd.DataFrame(matching_results)
 
-print(matching_results_df)
+# print(matching_results_df)
 
 matching_results_df.to_csv('matching_results.csv', index=False)
