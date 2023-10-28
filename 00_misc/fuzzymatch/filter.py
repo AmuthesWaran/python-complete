@@ -34,11 +34,12 @@ matching_results = []
 
 
 for flname in list_fullname:
-    first2letters = flname[0:1]
+    first2letters = flname[0:5]
+    print(first2letters)
     # print(list(filter(lambda x: x.startswith(first2letters), flname)))
     for fname in list_firstname:
         if (fname.startswith(first2letters)):
-            match_score = compute_fuzzy_match(fname, flname)
+            match_score = compute_fuzzy_match(flname, fname)
             # print(match_score)
             if match_score >= 0:  # Adjust the threshold as needed
                 matching_results.append(
