@@ -28,14 +28,14 @@ matching_results = []
 
 
 # Iterate through records in file1_df
-for index1, row1 in firstname.iterrows():
+for index1, fname in firstname.iterrows():
     # Adjust this based on your file structure
-    source_record = row1['firstname']
+    source_record = fname['firstname']
     # logging.info(row1['firstname'])
     # Iterate through records in file2_df
-    for index2, row2 in fullname.iterrows():
+    for index2, flname in fullname.iterrows():
         # Adjust this based on your file structure
-        target_record = row2['fullname']
+        target_record = flname['fullname']
         # print(target_record)
 
         # Compute the fuzzy match score
