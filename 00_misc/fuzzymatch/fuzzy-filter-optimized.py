@@ -1,5 +1,5 @@
 import pandas as pd
-from fuzzywuzzy import fuzz, process
+from fuzzywuzzy import fuzz
 import logging
 
 logging.basicConfig(filename='./logs_filter_opt.txt', filemode='a', format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s', datefmt='%Y-%m-%d %H:%M:%S',
