@@ -4,7 +4,7 @@
 * Vectorization in Python
 * Avoid iterablerows
 
-Supported Link to look for optimization
+### Supported Link to look for optimization
 https://www.askpython.com/python-modules/numpy/vectorization-numpy#:~:text=Vectorization%20in%20Python%20%E2%80%93%20A%20Complete%20Guide%201,of%20faster%20execution%20and%20less%20code%20size.%20
 
 https://www.geeksforgeeks.org/vectorization-in-python/
