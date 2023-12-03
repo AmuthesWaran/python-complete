@@ -1,7 +1,7 @@
 import csv
 
 filecontent_as_string = open(
-    './00_misc/emailid.txt', 'r').read()
+    '00_misc/emailid-extract/emailid.txt', 'r').read()
 
 splited_string = filecontent_as_string.split(";")
 
