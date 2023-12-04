@@ -1,6 +1,6 @@
 EMPLOYEE_ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE_NUMBER,HIRE_DATE,JOB_TITLE,SALARY,DEPARTMENT
 EMP100,Steven,King,Steven.King@company.com,515.123.4567,37789,President,24000,Executive
-EMP101,Neena,Kochhar,Neena.Kochhar@company.com,515.123.4568,38616,Administration Vice President,17000,Executive
+EMP101,Neena,,Neena.Kochhar@company.com,515.123.4568,38616,Administration Vice President,17000,Executive
 EMP102,Lex,De Haan,Lex.De Haan@company.com,515.123.4569,36904,Administration Vice President,17000,Executive
 EMP103,Alexander,Hunold,Alexander.Hunold@company.com,590.423.4567,38720,Programmer,9000,IT
 EMP104,Bruce,Ernst,Bruce.Ernst@company.com,590.423.4568,39223,Programmer,6000,IT
