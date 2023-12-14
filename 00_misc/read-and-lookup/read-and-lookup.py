@@ -32,7 +32,7 @@ with open('output.csv', 'w', newline='') as csvfile:
     csv_writer = csv.writer(csvfile)
     
     # Write header
-    csv_writer.writerow(['EMPLOYEE_ID', 'FIRST_NAME', 'LAST_NAME'])  # Replace with your column names
+    csv_writer.writerow(['EMPLOYEE_ID', 'FIRST_NAME', 'LAST_NAME'])
     
     # Write data rows
     for row in rows:

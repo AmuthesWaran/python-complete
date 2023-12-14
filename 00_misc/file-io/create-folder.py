@@ -1,6 +1,8 @@
 import os
 from datetime import datetime
 
+# This script will create a folder in DDMMYYY format
+
 # Get today's date
 today_date = datetime.now().date()
 # print(today_date)
