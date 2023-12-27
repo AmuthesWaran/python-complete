@@ -19,3 +19,8 @@ https://stackoverflow.com/questions/1422149/what-is-vectorization
 https://pandas.pydata.org/pandas-docs/stable/user_guide/basics.html#iteration
 
 https://pandas.pydata.org/pandas-docs/stable/user_guide/enhancingperf.html
+
+To Do:
+Faster Fuzzy Match between two columns
+
+https://github.com/ankitcoder123/Important-Python-Codes/blob/main/Faster%20Fuzzy%20Match%20between%20two%20columns/Fuzzy_match.py
