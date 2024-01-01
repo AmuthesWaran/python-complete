@@ -42,7 +42,7 @@ for index1, fname in firstname.iterrows():
         match_score = compute_fuzzy_match(source_record, target_record)
 
         # Add the match to the results DataFrame if it meets a certain threshold
-        if match_score >= 0:  # Adjust the threshold as needed
+        if match_score >= 60:  # Adjust the threshold as needed
             matching_results.append(
                 {'File1_Record': source_record, 'File2_Record': target_record, 'FuzzyMatchScore': match_score})
 

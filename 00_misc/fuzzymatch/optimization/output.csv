@@ -1,11 +1,10 @@
-File1_Record,File2_Record,FuzzyMatchScore
+firstname,fullname,Score
 Steven,Steven King,71
 Alexander,Alexander Hunold,72
 Alexander,Alexander Khoo,78
 Bruce,Bruce Ernst,62
 Daniel,Daniel Faviet,63
 John,John Chen,62
-Ismael,Ismael Sciarra,60
 Jose Manuel,Jose Manuel Urman,79
 Luis,Luis Popp,62
 Alexander,Alexander Hunold,72

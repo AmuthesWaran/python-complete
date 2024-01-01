@@ -24,3 +24,7 @@ To Do:
 Faster Fuzzy Match between two columns
 
 https://github.com/ankitcoder123/Important-Python-Codes/blob/main/Faster%20Fuzzy%20Match%20between%20two%20columns/Fuzzy_match.py
+
+pip install python-Levenshtein
+Installing collected packages: rapidfuzz, Levenshtein, python-Levenshtein
+Successfully installed Levenshtein-0.23.0 python-Levenshtein-0.23.0 rapidfuzz-3.6.1
